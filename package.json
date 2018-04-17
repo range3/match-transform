@@ -1,0 +1,14 @@
+{
+  "name": "@range3/match-transform",
+  "version": "1.0.0",
+  "description": "line-by-line stream str.match(regexp)",
+  "keywords": [
+    "match",
+    "stream",
+    "transform"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/range3/match-transform.git",
+  "author": "range3 <white.line.oar@gmail.com>",
+  "license": "MIT"
+}
