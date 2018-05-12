@@ -35,9 +35,12 @@ class MatchTransfrom extends Transform {
   }
 
   _match (lines) {
-    let matched
+    if (!this.pattern) {
+      return
+    }
+
     lines.forEach(line => {
-      matched = line.match(this.pattern)
+      const matched = line.match(this.pattern)
       if (matched) {
         this.emit('match', matched)
       }

@@ -1,6 +1,6 @@
 {
   "name": "@range3/match-transform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "line-by-line stream str.match(regexp)",
   "keywords": [
     "match",
